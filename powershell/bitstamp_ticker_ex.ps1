@@ -1,5 +1,4 @@
 ﻿# Install Install-Module PSWriteColor
-
 Function bitstamp_ticker  {
     $Site = "https://www.bitstamp.net/api/v2/ticker/btcusd/"
     function get-timestamp  {
