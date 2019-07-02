@@ -11,9 +11,11 @@ Collection of useful Powershell Code-Snippets and Scripts.
 Linux:
 ```bash
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+
 sudo dpkg -i packages-microsoft-prod.deb
 sudo apt-get update
 sudo add-apt-repository universe
+
 sudo apt-get install -y powershell
 pwsh
 ```
@@ -23,7 +25,6 @@ OS X:
 brew cask install powershell
 pwsh
 ```
-
 
 
 ```bash
@@ -39,9 +40,10 @@ edit autoexec.bat
 
 ## Usage example
 
-
 ```bash
+# clone repository
 git clone https://github.com/DigitalDieter/powershell.git
+# change directory to repository
 cd powershell
 # execute powershell
 pwsh
@@ -50,10 +52,3 @@ pwsh
 # for exiting powershell
 exit
 ```
-
-
-```sh
-PS > ./berliner_wetter.ps1 
-```
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
