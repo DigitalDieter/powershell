@@ -58,13 +58,17 @@ cd powershell
 
 # execute powershell
 pwsh
+```
 
+```pwsh
 # inside powershell PS >  ./berliner_wetter.ps1 
-./berliner_wetter.ps1 
+PS C:\> ./berliner_wetter.ps1
+PS C:\> exit
+```
 
 # for exiting powershell
 exit
-```
+
 
 ```powershell
 ./berliner_wetter.ps1 
