@@ -70,5 +70,5 @@ exit
 ```
 
 ```pwsh
-pwsh
+./berliner_wetter.ps1 
 ```
