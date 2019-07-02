@@ -1,7 +1,6 @@
 # Powershell scripts
 
-
-Collection of useful Powershell Code-Snippets and Scripts.
+On this repository, you can find useful Powershell Code-Snippets and Scripts. As well as the installation instructions for PowerShell 6.2.1 core on Linux and Mac OS.
 
 ## Installation
 
