@@ -3,8 +3,6 @@
 
 Collection of useful Powershell Code-Snippets and Scripts.
 
-![](header.png)
-
 ## Installation
 
 
