@@ -7,11 +7,22 @@ Collection of useful Powershell Code-Snippets and Scripts.
 
 ## Installation
 
-OS X & Linux:
 
-```sh
-npm install my-crazy-module --save
+Linux:
+```bash
+wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
+sudo dpkg -i packages-microsoft-prod.deb
+sudo apt-get update
+sudo add-apt-repository universe
+sudo apt-get install -y powershell
+pwsh
 ```
+
+OS X:
+```bash
+```
+
+
 
 ```bash
 python -m pip install -r requirements.txt
