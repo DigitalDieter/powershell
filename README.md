@@ -68,3 +68,7 @@ pwsh
 # for exiting powershell
 exit
 ```
+
+```pwsh
+pwsh
+```
