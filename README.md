@@ -44,8 +44,10 @@ pwsh
 
 Windows:
 
-```sh
-edit autoexec.bat
+Windows commes with pre-installed powershell
+```bash
+# run the following command to show installed version
+Get-Host
 ```
 
 ## Usage example
