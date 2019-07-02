@@ -69,3 +69,5 @@ exit
 ```pwsh
 ./berliner_wetter.ps1 
 ```
+
+PS C:\> New-AwesomeCommand -With -All -Arguments
