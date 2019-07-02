@@ -60,29 +60,14 @@ cd powershell
 pwsh
 ```
 
-```sh
-# inside windows powershell
-PS C:\> ./berliner_wetter.ps1
-PS C:\> exit
-```
 ```bash
 # inside windows powershell
 PS C:\> ./berliner_wetter.ps1
 PS C:\> exit
 ```
 
-```PowerShell
-# inside windows powershell
-PS C:\> ./berliner_wetter.ps1
-PS C:\> exit
+```bash
+# inside linux, mac os powershell
+PS > ./berliner_wetter.ps1
+PS > exit
 ```
-
-exit
-
-
-```powershell
-./berliner_wetter.ps1 
-```
-
-PS C:\> New-AwesomeCommand -With -All -Arguments
-PS > New-AwesomeCommand -With -All -Arguments
