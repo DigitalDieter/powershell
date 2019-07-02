@@ -43,12 +43,16 @@ edit autoexec.bat
 ```bash
 # clone repository
 git clone https://github.com/DigitalDieter/powershell.git
+
 # change directory to repository
 cd powershell
+
 # execute powershell
 pwsh
+
 # inside powershell PS >  ./berliner_wetter.ps1 
 ./berliner_wetter.ps1 
+
 # for exiting powershell
 exit
 ```
