@@ -60,13 +60,23 @@ cd powershell
 pwsh
 ```
 
-```pwsh
-# inside powershell PS >  ./berliner_wetter.ps1 
+```sh
+# inside windows powershell
+PS C:\> ./berliner_wetter.ps1
+PS C:\> exit
+```
+```bash
+# inside windows powershell
 PS C:\> ./berliner_wetter.ps1
 PS C:\> exit
 ```
 
-# for exiting powershell
+```PowerShell
+# inside windows powershell
+PS C:\> ./berliner_wetter.ps1
+PS C:\> exit
+```
+
 exit
 
 
