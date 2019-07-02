@@ -20,6 +20,8 @@ pwsh
 
 OS X:
 ```bash
+brew cask install powershell
+pwsh
 ```
 
 
@@ -36,5 +38,22 @@ edit autoexec.bat
 ```
 
 ## Usage example
+
+
+```bash
+git clone https://github.com/DigitalDieter/powershell.git
+cd powershell
+# execute powershell
+pwsh
+# inside powershell PS >  ./berliner_wetter.ps1 
+./berliner_wetter.ps1 
+# for exiting powershell
+exit
+```
+
+
+```sh
+PS > ./berliner_wetter.ps1 
+```
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
