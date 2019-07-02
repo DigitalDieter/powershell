@@ -10,27 +10,37 @@ Collection of useful Powershell Code-Snippets and Scripts.
 
 Linux:
 ```bash
+# download packages-microsoft-prod.deb
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
 
+# install packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
+
+# apt update
 sudo apt-get update
+
+# install software-properties-common (add-apt-repository)
+sudo apt install -y software-properties-common
+
+# add repository universe
 sudo add-apt-repository universe
 
+# install Powershell
 sudo apt-get install -y powershell
+
+# execute powershell
 pwsh
 ```
 
 OS X:
 ```bash
+# install powershell
 brew cask install powershell
+
+# execute powershell
 pwsh
 ```
 
-
-```bash
-python -m pip install -r requirements.txt
-
-```
 
 Windows:
 
