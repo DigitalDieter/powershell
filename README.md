@@ -66,7 +66,7 @@ pwsh
 exit
 ```
 
-```pwsh
+```powershell
 ./berliner_wetter.ps1 
 ```
 
