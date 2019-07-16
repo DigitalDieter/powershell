@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/devops-michael/pwsh_tester/_apis/build/status/pwsh_tester?branchName=master)](https://dev.azure.com/devops-michael/pwsh_tester/_build/latest?definitionId=1&branchName=master)
+
 # Powershell scripts
 
 On this repository, you can find useful Powershell Code-Snippets and Scripts. As well as the installation instructions for PowerShell 6.2.1 core on Linux and Mac OS.
