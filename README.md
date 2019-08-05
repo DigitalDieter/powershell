@@ -9,25 +9,25 @@ On this repository, you can find useful Powershell Code-Snippets and Scripts. As
 
 Linux:
 ```bash
-# download packages-microsoft-prod.deb
+# Download packages-microsoft-prod.deb
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
 
-# install packages-microsoft-prod.deb
+# Install packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
 
-# apt update
+# Apt update
 sudo apt-get update
 
-# install software-properties-common (add-apt-repository)
+# Install software-properties-common (add-apt-repository)
 sudo apt install -y software-properties-common
 
-# add repository universe
+# Add repository universe
 sudo add-apt-repository universe
 
-# install Powershell
+# Install Powershell
 sudo apt-get install -y powershell
 
-# execute powershell
+# Execute powershell
 pwsh
 ```
 
@@ -36,40 +36,40 @@ OS X:
 # install powershell
 brew cask install powershell
 
-# execute powershell
+# Execute powershell
 pwsh
 ```
 
 
 Windows:
 
-Windows commes with pre-installed powershell
+Windows comes with pre-installed powershell
 ```bash
-# run the following command to show installed version
+# Run the following command to show installed version
 Get-Host
 ```
 
 ## Usage example
 
 ```bash
-# clone repository
+# Clone repository
 git clone https://github.com/DigitalDieter/powershell.git
 
-# change directory to repository
+# Change directory to repository
 cd powershell
 
-# execute powershell
+# Execute powershell
 pwsh
 ```
 
 ```bash
-# inside windows powershell
+# Inside windows powershell
 PS C:\> ./berliner_wetter.ps1
 PS C:\> exit
 ```
 
 ```bash
-# inside linux, mac os powershell
+# Inside linux, mac os powershell
 PS > ./berliner_wetter.ps1
 PS > exit
 ```
